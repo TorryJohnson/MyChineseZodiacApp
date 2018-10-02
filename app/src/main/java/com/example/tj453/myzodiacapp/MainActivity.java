@@ -202,7 +202,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public String getenemy() {
-
+        int a = 0;
         int num = Integer.parseInt(take);
         num += 6;
         int e = num % 12;
@@ -219,5 +219,6 @@ public class MainActivity extends AppCompatActivity {
         }
         return animalEnemy;
     }
+
 
 }
